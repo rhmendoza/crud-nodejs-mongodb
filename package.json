@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "debug": "nodemon modules/index.js"
-
+    "debug": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,9 @@
   },
   "homepage": "https://github.com/rhmendoza/crud-nodejs-mongodb#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
     "mongoose": "^6.8.3"
   },
   "devDependencies": {

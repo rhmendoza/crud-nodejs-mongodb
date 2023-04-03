@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGODB_URL)
     .then(() => console.log('conexion realizada con exito'))
     .catch((err) => console.log(err));
 
-   
+    
 app.listen(PUERTO, () => {
     console.log(`El servidor para CRUD esta escuchando en el puerto ${PUERTO}`);
 });
